@@ -1,0 +1,42 @@
+body{
+    background-image: url(fundal1.jpg) ;
+}
+img{
+    border-radius: 25px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.form{
+    border: 3px solid;
+    background-color: grey;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+input[type=text], input[type=password] , input[type=email], input[type=number], input[type=date]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+.log {
+    background-color: rgba(227, 183, 100, 0.504);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    color: black;
+  } 
+.log:hover {
+    opacity: 0.8;
+  }
+  .container{
+    height: 200px;
+    width: 500px;
+    margin-top: -600px;
+    margin-left: 800px;
+  }
